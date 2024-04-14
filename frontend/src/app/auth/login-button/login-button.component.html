@@ -1,0 +1,3 @@
+<ng-container *ngIf="(auth.isAuthenticated$ | async) === false">
+  <p-button (click)="auth.loginWithPopup()" label="Login"></p-button>
+</ng-container>

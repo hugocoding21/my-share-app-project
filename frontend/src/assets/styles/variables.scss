@@ -1,0 +1,37 @@
+$radius-mid: 1rem;
+$radius-button: 13px;
+$box-shadow: 4px 8px 20px 0 rgba(69, 86, 113, 0.13);
+$box-shadow-transparent: 4px 8px 20px 0 rgba(69, 86, 113, 0);
+$box-shadow-top: 4px -8px 20px 0 rgba(69, 86, 113, 0.13);
+$box-shadow-active: 4px 8px 20px 0 rgba(69, 86, 113, 0.26);
+$box-shadow-light: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+$drop-shadow-light: 0 3px 6px rgba(0, 0, 0, 0.16);
+
+// Primeflex variables
+// Breakpoints min-width
+$sm: 0px;
+$md: 601px;
+$lg: 1025px;
+$xl: 1441px;
+$gutter: 0.5rem;
+$fieldMargin: 1rem;
+$fieldLabelMargin: 0.5rem;
+$helperTextMargin: 0.25rem;
+$spacer: 1rem;
+
+// Breakpoints max-width
+$small-screen-breakpoint: $xl - 1px;
+$tablet-breakpoint: $lg - 1px;
+$phone-breakpoint: $md - 1px;
+
+// Layout variables
+$content-margin: 10.4vw;
+$small-screen-content-margin: 8.5vw;
+$tablet-content-margin: 6.24vw;
+$phone-content-margin: 5.1vw;
+
+// Popin layout variables
+$popin-content-margin: $content-margin - 2.5vw;
+$popin-small-screen-content-margin: $small-screen-content-margin - 2.5vw;
+$popin-tablet-content-margin: $tablet-content-margin - 2.5vw;
+$popin-phone-content-margin: $phone-content-margin - 2.5vw;

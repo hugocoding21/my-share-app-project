@@ -1,0 +1,73 @@
+@charset "UTF-8";
+
+// Theme aura-dark-amber
+@import "./assets/styles/primeng-theme.scss";
+@import "../node_modules/primeng/resources/primeng.min.css";
+@import "../node_modules/primeng/resources/primeng.css";
+// @import "../node_modules/primeicons/primeicons.css";
+html {
+  font-size: 100%;
+  // font-family: $text-font;
+
+  // color: $text-black;
+}
+
+body {
+  // gestion du scroll avec le menu ouvert en mobile
+  &.with-mobile-menu {
+    app-root {
+      display: block;
+      max-height: 100vh;
+      overflow: hidden;
+    }
+  }
+}
+
+.no-scroll {
+  overflow: hidden;
+}
+
+// Fix for input placeholder on Firefox
+::-moz-placeholder {
+  opacity: 1;
+}
+
+// Fade in on image lazy load
+img {
+  opacity: 1;
+  transition: opacity 0.3s;
+
+  &.lazy-loading {
+    opacity: 0;
+  }
+}
+
+font[size] {
+  &[size="1"] {
+    font-size: x-small !important;
+  }
+
+  &[size="2"] {
+    font-size: small !important;
+  }
+
+  &[size="3"] {
+    font-size: medium !important;
+  }
+
+  &[size="4"] {
+    font-size: large !important;
+  }
+
+  &[size="5"] {
+    font-size: x-large !important;
+  }
+
+  &[size="6"] {
+    font-size: xx-large !important;
+  }
+
+  &[size="7"] {
+    font-size: xxx-large !important;
+  }
+}

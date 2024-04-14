@@ -1,0 +1,70 @@
+@import "mixin";
+
+.page-container {
+  align-items: stretch;
+  display: flex;
+  flex-direction: column;
+
+  &.padding-top {
+    padding-top: 1.75rem;
+  }
+
+  &.padding-bottom {
+    padding-bottom: 1.75rem;
+  }
+}
+
+.page-content {
+  @include content-margin;
+}
+
+.left-container,
+.right-container {
+  @include content-margin((min-width, width));
+}
+
+.content-container {
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 0%;
+}
+
+.hide {
+  display: none !important;
+}
+
+.flex-1 {
+  flex: 1 1 0;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.h-100 {
+  height: 100%;
+}
+
+// Display flex
+.col-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+.row-container {
+  display: flex;
+  flex-direction: row;
+}
+.center {
+  justify-content: center;
+  align-items: center;
+}
+
+//Container right if navbar
+
+.container-right {
+  display: flex;
+  position: absolute;
+  left: min(350px);
+  top: 3%;
+}

@@ -1,0 +1,307 @@
+// // Color palette
+// $foncia-dark-blue: #248cf4;
+// $foncia-dark-medium-blue: #031881;
+// $foncia-dark-navy-blue: #1c1e3d;
+// $foncia-darkish-blue: #074480;
+// $foncia-purple: #7780b8;
+// $foncia-purple-dark: #323c7d;
+// $foncia-purple-light: #b6bbd7;
+// $foncia-blue: #0091b4;
+// $foncia-turquoise: #39b6b8;
+// $foncia-turquoise-light: #3cd2d5;
+// $foncia-turquoise-lighter: #bae4e5;
+// $foncia-green-turquoise: #48b6b8;
+// $foncia-green-dark: #39925a;
+// $foncia-green: #00925b;
+// $foncia-green-light: #60b95c;
+// $foncia-green-lightest: #8fdba2;
+// $foncia-yellow-bright: #fded01;
+// $foncia-yellow: #f8b322;
+// $foncia-yellow-light: #fad275;
+// $foncia-orange: #eb690b;
+// $foncia-orange-dark: #8a3703;
+// $foncia-pink-bright: #e297ea;
+// $foncia-pink: #dab6d4;
+// $error-red: #e57878;
+// $red: #eb360b;
+// $toaster-red: #ffc1b2;
+// $guide-immo-brown: #584620;
+// $guide-immo-brown-dark: #393835;
+// $prm-blue: #3586ff;
+// $belles-personnes-blue: #0f91b4;
+// $emeria-dark-orange: #c63500;
+// $emeria-orange: #ea691f;
+// $emeria-dark-blue: #1c1e3d;
+// $emeria-blue: #031881;
+
+// // Grey palette
+// $grey-darkest: #2e2e2e;
+// $grey-darker: #767676;
+// $grey-dark: #a1a1a1;
+// $grey-darkish: #e2e2e2;
+// $grey-mid: #d6d6d6;
+// $grey-light: #ececec;
+// $grey-lighter-dark: #f2f2f2;
+// $grey-lighter: #f7f7f7;
+// $grey-lightest: #fbfbfb;
+// $white: #fff;
+// $black: #000;
+
+// // Text colors
+// $text-black: $grey-darkest;
+// $text-dark: $grey-darker;
+// $text-mid: $grey-mid;
+// $text-light: $grey-dark;
+// $text-white: $white;
+// $text-dark-blue: $foncia-dark-blue;
+// $text-dark-medium-blue: $foncia-dark-medium-blue;
+// $text-dark-navy-blue: $foncia-dark-navy-blue;
+// $text-darkish-blue: $foncia-darkish-blue;
+// $text-turquoise: $foncia-turquoise;
+// $text-orange: $foncia-orange;
+// $text-orange-transparent: rgba($foncia-orange, 0.4);
+// $text-orange-dark: $foncia-orange-dark;
+// $text-yellow: $foncia-yellow;
+// $text-purple: $foncia-purple;
+// $text-dark-purple: $foncia-purple-dark;
+// $text-blue: $foncia-blue;
+// $text-error: $error-red;
+// $text-red: $red;
+// $text-green: $foncia-green;
+// $text-green-light: $foncia-green-light;
+// $text-pink: $foncia-pink;
+// $text-brown: $guide-immo-brown;
+// $text-brown-dark: $guide-immo-brown-dark;
+// $text-prm-blue: $prm-blue;
+// $text-belles-personnes-blue: $belles-personnes-blue;
+// $text-emeria-orange: $emeria-orange;
+// $text-emeria-blue: $emeria-blue;
+// $text-emeria-blue-transparent: rgba($emeria-blue, 0.4);
+
+// // Border colors
+// $border-black: $black;
+// $border-darkest: $grey-darkest;
+// $border-dark: $grey-dark;
+// $border-grey-darkish: $grey-darkish;
+// $border-mid: $grey-mid;
+// $border-light: $grey-light;
+// $border-lighter: $grey-lighter;
+// $border-dark-blue: $foncia-dark-blue;
+// $border-dark-medium-blue: $foncia-dark-medium-blue;
+// $border-dark-navy-blue: $foncia-dark-navy-blue;
+// $border-white: $white;
+// $border-orange-dark: $foncia-orange-dark;
+// $border-turquoise: $foncia-turquoise;
+// $border-purple: $foncia-purple;
+// $border-orange: $foncia-orange;
+// $border-red: $red;
+// $border-error: $error-red;
+// $border-yellow: $foncia-yellow;
+// $border-prm-blue: $prm-blue;
+// $border-blue: $foncia-blue;
+// $border-green: $foncia-green;
+// $border-pink: $foncia-pink;
+// $border-emeria-orange: $emeria-orange;
+// $border-emeria-blue: $emeria-blue;
+
+// // Background-colors
+// $bg-black: $black;
+// $bg-dark: $grey-mid;
+// $bg-dark-dark: $grey-dark;
+// $bg-darkest: $grey-darkest;
+// $bg-grey-darkish: $grey-darkish;
+// $bg-grey-mid: $grey-mid;
+// $bg-mid: $grey-light;
+// $bg-grey2: $grey-light;
+// $bg-grey-lighter-dark: $grey-lighter-dark;
+// $bg-light: $grey-lighter;
+// $bg-lightest: $grey-lightest;
+// $bg-white: $white;
+// $bg-dark-blue: $foncia-dark-blue;
+// $bg-dark-medium-blue: $foncia-dark-medium-blue;
+// $bg-dark-navy-blue: $foncia-dark-navy-blue;
+// $bg-darkish-blue: $foncia-darkish-blue;
+// $bg-orange-dark: $foncia-orange-dark;
+// $bg-overlay: rgba($grey-darkest, 0.3);
+// $bg-orange: $foncia-orange;
+// $bg-orange-transparent: rgba($foncia-orange, 0.4);
+// $bg-turquoise: $foncia-turquoise;
+// $bg-turquoise-lighter: $foncia-turquoise-lighter;
+// $bg-blue: $foncia-blue;
+// $bg-turquoise-green: $foncia-green-turquoise;
+// $bg-dark-green: $foncia-green-dark;
+// $bg-green: $foncia-green;
+// $bg-yellow: $foncia-yellow;
+// $bg-pink: $foncia-pink;
+// $bg-purple: $foncia-purple;
+// $bg-purple-transparent: rgba($bg-purple, 0.2);
+// $bg-white-transparent: rgba($white, 0.16);
+// $bg-red: $toaster-red;
+// $emeria-bg-dark-orange: $emeria-dark-orange;
+// $emeria-bg-orange: $emeria-orange;
+// $emeria-bg-dark-blue: $emeria-dark-blue;
+// $emeria-bg-blue: $emeria-blue;
+// $emeria-bg-blue-semi-transparent: rgba($emeria-blue, 0.5);
+// $emeria-bg-blue-transparent: rgba($emeria-blue, 0);
+
+// // Map marker colors
+// $marker-shadow-blue: rgba(59, 157, 219, 0.21);
+// $selected-marker-blue: #5c72ff;
+// $selected-marker-shadow-blue: rgba(23, 130, 255, 0.63);
+// $marker-shadow-orange: rgba(230, 178, 55, 0.28);
+// $selected-marker-shadow-orange: rgba(230, 178, 55, 0.69);
+
+// // Flags colors
+// $blue-flag-retracted-bg: linear-gradient(
+//   178deg,
+//   $bg-blue 10%,
+//   $bg-dark-blue 90%
+// );
+// $blue-flag-developed-bg: linear-gradient(
+//   166deg,
+//   $bg-blue 18%,
+//   $bg-dark-blue 80%
+// );
+
+// $orange-flag-retracted-bg: linear-gradient(
+//   180deg,
+//   $bg-yellow -11%,
+//   $bg-orange 90%
+// );
+// $orange-flag-developed-bg: linear-gradient(
+//   166deg,
+//   $bg-yellow 0%,
+//   $bg-orange 63%
+// );
+
+// $purple-flag-retracted-bg: linear-gradient(
+//   180deg,
+//   $bg-pink -11%,
+//   $bg-purple 90%
+// );
+// $purple-flag-developed-bg: linear-gradient(166deg, $bg-pink 0%, $bg-purple 63%);
+
+// $green-flag-retracted-bg: linear-gradient(
+//   180deg,
+//   $bg-turquoise-green -11%,
+//   $bg-dark-green 90%
+// );
+// $green-flag-developed-bg: linear-gradient(
+//   166deg,
+//   $bg-turquoise-green 0%,
+//   $bg-dark-green 63%
+// );
+
+// $turquoise-flag-retracted-bg: linear-gradient(
+//   130deg,
+//   $bg-turquoise 4%,
+//   $bg-blue 100%
+// );
+// $turquoise-flag-developed-bg: linear-gradient(
+//   106deg,
+//   $bg-turquoise 6%,
+//   $bg-blue 100%
+// );
+
+// // PrimeNG colors override
+// $primary: $foncia-dark-blue;
+// $primary-hover: scale-color($primary, $lightness: -10%);
+// $primary-active: scale-color($primary, $lightness: -20%);
+// $primary-focus: scale-color($primary, $lightness: 60%);
+// $primary-bg: scale-color($primary, $lightness: 80%, $saturation: 70%);
+// $primary-border: scale-color($primary, $saturation: 35%);
+// $primary-text: scale-color($primary, $lightness: -50%, $saturation: 30%);
+
+// $help: $foncia-purple;
+// $help-hover: scale-color($help, $lightness: -10%);
+// $help-active: scale-color($help, $lightness: -20%);
+// $help-focus: scale-color($help, $lightness: 60%);
+// $help-bg: scale-color($help, $lightness: 80%, $saturation: 70%);
+// $help-border: scale-color($help, $saturation: 35%);
+// $help-text: scale-color($help, $lightness: -50%, $saturation: 30%);
+
+// $info: $foncia-blue;
+// $info-hover: scale-color($info, $lightness: -10%);
+// $info-active: scale-color($info, $lightness: -20%);
+// $info-focus: scale-color($info, $lightness: 60%);
+// $info-bg: scale-color($info, $lightness: 80%, $saturation: 70%);
+// $info-border: scale-color($info, $saturation: 35%);
+// $info-text: scale-color($info, $lightness: -50%, $saturation: 30%);
+
+// $secondary: $foncia-turquoise;
+// $secondary-hover: scale-color($secondary, $lightness: -10%);
+// $secondary-active: scale-color($secondary, $lightness: -20%);
+// $secondary-focus: scale-color($secondary, $lightness: 60%);
+// $secondary-bg: scale-color($secondary, $lightness: 80%, $saturation: 70%);
+// $secondary-border: scale-color($secondary, $saturation: 35%);
+// $secondary-text: scale-color($secondary, $lightness: -50%, $saturation: 30%);
+
+// $success: $foncia-green;
+// $success-hover: scale-color($success, $lightness: -10%);
+// $success-active: scale-color($success, $lightness: -20%);
+// $success-focus: scale-color($success, $lightness: 60%);
+// $success-bg: scale-color($success, $lightness: 80%, $saturation: 70%);
+// $success-border: scale-color($success, $saturation: 35%);
+// $success-text: scale-color($success, $lightness: -50%, $saturation: 30%);
+
+// $warning: $foncia-yellow;
+// $warning-hover: scale-color($warning, $lightness: -10%);
+// $warning-active: scale-color($warning, $lightness: -20%);
+// $warning-focus: scale-color($warning, $lightness: 60%);
+// $warning-bg: scale-color($warning, $lightness: 80%, $saturation: 70%);
+// $warning-border: scale-color($warning, $saturation: 35%);
+// $warning-text: scale-color($warning, $lightness: -50%, $saturation: 30%);
+
+// $danger: $foncia-orange;
+// $danger-hover: scale-color($danger, $lightness: -10%);
+// $danger-active: scale-color($danger, $lightness: -20%);
+// $danger-focus: scale-color($danger, $lightness: 60%);
+// $danger-bg: scale-color($danger, $lightness: 80%, $saturation: 70%);
+// $danger-border: scale-color($danger, $saturation: 35%);
+// $danger-text: scale-color($danger, $lightness: -50%, $saturation: 30%);
+
+// $ternary: $foncia-pink;
+// $ternary-hover: scale-color($ternary, $lightness: -10%);
+// $ternary-active: scale-color($ternary, $lightness: -20%);
+// $ternary-focus: scale-color($ternary, $lightness: 60%);
+// $ternary-bg: scale-color($ternary, $lightness: 80%, $saturation: 70%);
+// $ternary-border: scale-color($ternary, $saturation: 35%);
+// $ternary-text: scale-color($ternary, $lightness: -50%, $saturation: 30%);
+
+// $grey: $grey-dark;
+// $grey-hover: scale-color($grey, $lightness: -10%);
+// $grey-active: scale-color($grey, $lightness: -20%);
+// $grey-focus: scale-color($grey, $lightness: 60%);
+// $grey-bg: scale-color($grey, $lightness: 50%);
+// $grey-border: scale-color($grey, $saturation: 35%);
+// $grey-text: scale-color($grey, $lightness: -50%);
+
+// $white-hover: scale-color($white, $lightness: -10%);
+// $white-active: scale-color($white, $lightness: -20%);
+// $white-focus: scale-color($white, $lightness: 60%);
+// $white-bg: scale-color($white, $lightness: 50%);
+// $white-border: scale-color($white, $saturation: 35%);
+// $white-text: scale-color($white, $lightness: -50%);
+
+// $error-focus: scale-color($error-red, $lightness: 60%);
+
+// $highlight-color: $primary-bg;
+
+// $dpe-class-A: #17a001;
+// $dpe-class-B: #21ca01;
+// $dpe-class-C: #c4ff03;
+// $dpe-class-D: #fcff03;
+// $dpe-class-E: #feca02;
+// $dpe-class-F: #fd9501;
+// $dpe-class-G: #fd0000;
+
+// $ges-class-A: #dfd0e8;
+// $ges-class-B: #f4dcf8;
+// $ges-class-C: #cf75dd;
+// $ges-class-D: #c975de;
+// $ges-class-E: #cd76de;
+// $ges-class-F: #b76ed2;
+// $ges-class-G: #a06cd1;
+
+// $facebook: #127edb;
+// $twitter: #02c5ff;

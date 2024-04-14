@@ -1,0 +1,44 @@
+<p-sidebar
+  styleClass=""
+  ariaCloseLabel="false"
+  autoZIndex="false"
+  baseZIndex="false"
+  modal="false"
+  dismissible="false"
+  showCloseIcon="false"
+  closeOnEscape="false"
+  transitionOptions="false"
+  mask="false"
+  autoZIndex="false"
+  baseZIndex="false"
+  [(visible)]="sidebarVisible"
+>
+  <ng-template pTemplate>
+    <div class="flex flex-column">
+      <div class="flex align-items-center justify-content-between center">
+        <span class="inline-flex align-items-center gap-2">
+          <h1 class="font-semibold text-primary">Share</h1>
+        </span>
+      </div>
+      <div class="overflow-y-auto">
+        <app-login-button></app-login-button>
+        <app-logout-button></app-logout-button>
+        <p class="font1">Texte en police fine</p>
+        <p class="font2">Texte en police régulièredddddedkeodkoedkoedk</p>
+        <p class="font3">Texte en police grasse</p>
+      </div>
+      <div class="mt-auto">
+        <a
+          pRipple
+          class="flex align-items-center cursor-pointer gap-2 border-round text-700 hover:surface-100 transition-duration-150 transition-colors p-ripple"
+        >
+          <p-avatar
+            image="https://primefaces.org/cdn/primeng/images/demo/avatar/amyelsner.png"
+            shape="circle"
+          />
+          <span class="font-bold">Profil</span>
+        </a>
+      </div>
+    </div>
+  </ng-template>
+</p-sidebar>

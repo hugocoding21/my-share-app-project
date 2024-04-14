@@ -1,0 +1,253 @@
+@import "mixin";
+@import "colors";
+
+.text-right {
+  text-align: right;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.bg-white,
+.p-button.bg-white {
+  background-color: #ffffff !important;
+}
+
+.media-container {
+  > iframe {
+    height: 100%;
+    border: none;
+    width: 100%;
+  }
+}
+
+@include desktop-large-only {
+  .full-xl {
+    width: 100%;
+  }
+  .half-xl {
+    width: 50%;
+  }
+  .tier-xl {
+    width: 33.3%;
+  }
+  .quarter-xl {
+    width: 25%;
+  }
+}
+
+@include desktop-small-only {
+  .full-lg {
+    width: 100%;
+  }
+  .half-lg {
+    width: 50%;
+  }
+  .tier-lg {
+    width: 33.3%;
+  }
+  .quarter-lg {
+    width: 25%;
+  }
+}
+
+@include tablet-only {
+  .full-md {
+    width: 100%;
+  }
+  .half-md {
+    width: 50%;
+  }
+  .tier-md {
+    width: 33.3%;
+  }
+  .quarter-md {
+    width: 25%;
+  }
+}
+
+@include phone-only {
+  .full-sm {
+    width: 100%;
+  }
+  .half-sm {
+    width: 50%;
+  }
+  .tier-sm {
+    width: 33.3%;
+  }
+  .quarter-sm {
+    width: 25%;
+  }
+}
+
+// .bg-primary {
+//   background: $bg-dark-blue;
+// }
+
+// .bg-help {
+//   background: $bg-purple;
+// }
+
+// .bg-info {
+//   background: $bg-blue;
+// }
+
+// .bg-secondary {
+//   background: $bg-turquoise;
+// }
+
+// .bg-success {
+//   background: $bg-green;
+// }
+
+// .bg-warning {
+//   background: $bg-yellow;
+// }
+
+// .bg-danger {
+//   background: $bg-orange;
+// }
+
+// .bg-ternary {
+//   background: $bg-pink;
+// }
+
+// .bg-grey {
+//   background: $bg-dark-dark;
+// }
+
+// .bg-black {
+//   background: $bg-darkest;
+// }
+
+// .text-primary {
+//   color: $text-dark-blue;
+// }
+
+// .text-help {
+//   color: $text-purple;
+// }
+
+// .text-info {
+//   color: $text-blue;
+// }
+
+// .text-secondary {
+//   color: $text-turquoise;
+// }
+
+// .text-success {
+//   color: $text-green;
+// }
+
+// .text-warning {
+//   color: $text-yellow;
+// }
+
+// .text-danger {
+//   color: $text-orange;
+// }
+
+// .text-ternary {
+//   color: $text-pink;
+// }
+
+// .text-white {
+//   color: $text-white;
+// }
+
+// .text-grey {
+//   color: $text-light;
+// }
+
+// .text-dark {
+//   color: $text-dark;
+// }
+
+// .text-black {
+//   color: $text-black;
+// }
+
+// .border-primary {
+//   border-color: $border-dark-blue;
+// }
+
+// .border-help {
+//   border-color: $border-purple;
+// }
+
+// .border-info {
+//   border-color: $border-blue;
+// }
+
+// .border-secondary {
+//   border-color: $border-turquoise;
+// }
+
+// .border-success {
+//   border-color: $border-green;
+// }
+
+// .border-warning {
+//   border-color: $border-yellow;
+// }
+
+// .border-danger {
+//   border-color: $border-orange;
+// }
+
+// .border-ternary {
+//   border-color: $border-pink;
+// }
+
+// .border-grey {
+//   border-color: $border-dark;
+// }
+
+// .border-black {
+//   border-color: $border-darkest;
+// }
+
+// .no-border {
+//   border: none !important;
+// }
+
+// :root {
+//   --bg-primary: #{$bg-dark-blue};
+//   --bg-help: #{$bg-purple};
+//   --bg-info: #{$bg-blue};
+//   --bg-secondary: #{$bg-turquoise};
+//   --bg-success: #{$bg-green};
+//   --bg-warning: #{$bg-yellow};
+//   --bg-danger: #{$bg-orange};
+//   --bg-ternary: #{$bg-pink};
+//   --bg-grey: #{$bg-dark-dark};
+//   --bg-black: #{$bg-darkest};
+//   --text-primary: #{$text-dark-blue};
+//   --text-help: #{$text-purple};
+//   --text-info: #{$text-blue};
+//   --text-secondary: #{$text-turquoise};
+//   --text-success: #{$text-green};
+//   --text-warning: #{$text-yellow};
+//   --text-danger: #{$text-orange};
+//   --text-ternary: #{$text-pink};
+//   --text-grey: #{$text-light};
+//   --text-white: #{$text-white};
+//   --text-black: #{$text-black};
+//   --border-primary: #{$border-dark-blue};
+//   --border-help: #{$border-purple};
+//   --border-info: #{$border-blue};
+//   --border-secondary: #{$border-turquoise};
+//   --border-success: #{$border-green};
+//   --border-warning: #{$border-yellow};
+//   --border-danger: #{$border-orange};
+//   --border-ternary: #{$border-pink};
+//   --border-grey: #{$border-dark};
+//   --border-black: #{$border-darkest};
+// }

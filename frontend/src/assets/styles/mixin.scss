@@ -1,0 +1,105 @@
+@import 'variables';
+
+@mixin phone-only {
+	@media screen and (max-width: ($md - 1px)) {
+		@content;
+	}
+}
+
+@mixin phone-landscape-only {
+	@media screen and (max-height: ($md - 1px)) and (orientation: landscape) {
+		@content;
+	}
+}
+
+@mixin tablet-only {
+	@media screen and (min-width: $md) and (max-width: ($lg - 1px)) {
+		@content;
+	}
+}
+
+@mixin tablet-and-more {
+	@media screen and (min-width: $md) {
+		@content;
+	}
+}
+
+@mixin tablet-and-less {
+	@media screen and (max-width: ($lg - 1px)) {
+		@content;
+	}
+}
+
+@mixin desktop-only {
+	@media screen and (min-width: $lg) {
+		@content;
+	}
+}
+@mixin desktop-small-only {
+	@media screen and (min-width: $lg) and (max-width: ($xl - 1px)) {
+		@content;
+	}
+}
+@mixin desktop-small-and-more {
+	@include desktop-only {
+		@content;
+	}
+}
+
+@mixin desktop-small-and-less {
+	@media screen and (max-width: ($xl - 1px)) {
+		@content;
+	}
+}
+@mixin desktop-large-only {
+	@media screen and (min-width: $xl) {
+		@content;
+	}
+}
+
+@mixin firefox-only {
+	@-moz-document url-prefix() {
+		@content;
+	}
+}
+
+@mixin content-margin(
+	$properties: (
+		margin-left,
+		margin-right,
+	)
+) {
+	@each $property in $properties {
+		#{$property}: $content-margin;
+		.popin & {
+			#{$property}: $popin-content-margin;
+		}
+	}
+
+	@include desktop-small-and-less {
+		@each $property in $properties {
+			#{$property}: $small-screen-content-margin;
+			.popin & {
+				#{$property}: $popin-small-screen-content-margin;
+			}
+		}
+	}
+
+	@include tablet-and-less {
+		@each $property in $properties {
+			#{$property}: $tablet-content-margin;
+			.popin & {
+				#{$property}: $popin-tablet-content-margin;
+			}
+		}
+	}
+
+	@include phone-only {
+		@each $property in $properties {
+			#{$property}: $phone-content-margin;
+			.popin & {
+				#{$property}: $popin-phone-content-margin;
+			}
+		}
+	}
+}
